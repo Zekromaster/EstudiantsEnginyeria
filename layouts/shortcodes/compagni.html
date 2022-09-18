@@ -1,0 +1,6 @@
+<div style="display:flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 3em">
+    {{ range $.Site.Data.companys }}
+        {{ partial "compagno.html" . }}
+    {{ end }}
+</div>
+<br><br><br>

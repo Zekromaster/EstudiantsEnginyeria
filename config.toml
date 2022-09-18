@@ -1,0 +1,14 @@
+baseURL = 'https://estudiantsenginyeria.zekromaster.net'
+title = 'Estudiants Enginyeria'
+theme = 'estudiants-enginyeria-theme'
+languageCode = 'it-IT'
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+defaultContentLanguage = 'it'
+
+[posts]
+featuredpost = false
+
+[languages]
+[languages.it]
+  contentDir = "content/it"
+  languageName = "Italiano"

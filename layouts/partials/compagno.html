@@ -1,0 +1,7 @@
+<div style="height: 10em; text-align: center;">
+    <b>{{ .name }}</b> ({{ .pronouns }})
+    <br>
+    <img src="{{ (resources.Get .photo).RelPermalink | absURL }}" style="height:7em"></img>
+    <br>
+    {{ .role }}
+</div>

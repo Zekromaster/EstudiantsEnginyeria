@@ -1,0 +1,3 @@
+[submodule "themes/estudiants-enginyeria-theme"]
+	path = themes/estudiants-enginyeria-theme
+	url = git@github.com:Zekromaster/estudiants-enginyeria-theme
